@@ -1,0 +1,5 @@
+import bpy
+import os
+
+bpy.ops.render.render(use_viewport=True)
+bpy.ops.ai_render.generate_new_image_from_current()
